@@ -1,0 +1,29 @@
+.grid-item {
+    height: 5em;
+    width: 3.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#scroll-5::-webkit-scrollbar {
+    width: 10px;
+}
+
+#scroll-5::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0px 0px 6px rgba(0, 0, 0, .5);
+    background: #f4f4f4;
+    border-radius: 4px;
+}
+
+#scroll-5::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .6);
+    border: 1px solid #999;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0px 0px 10px rgba(0, 0, 0, .2);
+}
+
+#scroll-5::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, .1);
+}
