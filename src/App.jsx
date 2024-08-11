@@ -228,8 +228,8 @@ function App() {
     fetch('/data.gz'
       , {
         headers: {
-          'Content-Type': 'application/gzip',
-          'Accept': 'application/gzip'
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
         }
       }
     )
