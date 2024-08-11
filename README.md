@@ -10,7 +10,7 @@ Welcome to the Weather Dashboard, a sleek and intuitive web application that pro
   
 - **Air Quality Index**: Monitor the air quality in your selected location with data from the AQICN API, including pollutants and overall air quality index (AQI).
   
-- **5-Day Weather Forecast**: Plan ahead with a detailed 5-day forecast, featuring daily temperature highs and lows, weather conditions, and more.
+- **30-Day Weather Forecast**: Plan ahead with a detailed 30-day forecast, featuring daily temperature highs and lows, weather conditions, and more.
 
 - **Responsive Design**: Enjoy a seamless user experience on any device, whether it’s a desktop, tablet, or smartphone.
 
