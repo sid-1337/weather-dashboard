@@ -225,7 +225,7 @@ function App() {
     });
   }
   const getData = () => {
-    fetch('/data.gz'
+    fetch('/data.json.gz'
       , {
         headers: {
           'Content-Type': 'application/json',
