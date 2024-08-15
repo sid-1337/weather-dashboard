@@ -235,9 +235,11 @@ function App() {
     )
       .then(function (response) {
         // console.log(response)
-        return response.json();
+        return response.arrayBuffer();
       })
-      .then(function (myJson) {
+      .then(function (buffer) {
+        const text = new TextDecoder('utf-8').decode(buffer);
+        const myJson = JSON.parse(text);
         setData(myJson);
         setUse(1);
       });
